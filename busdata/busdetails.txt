@@ -1,0 +1,2 @@
+In this busdata folder, 11 government states buses and some private states buses, details are scraped and stored in each respective csv file.
+Bus details are scraped from the following states : Kerala, Andhra Pradesh, Assam, Gujarat, Haryana, Punjab, Rajasthan, South Bengal, Telengana, Uttar Pradesh, West Bengal
