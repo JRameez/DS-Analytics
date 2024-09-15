@@ -1,0 +1,1 @@
+In route_link_data folder, the details of routes and links of the states buses(government and private) are scraped and stored as csv file.
