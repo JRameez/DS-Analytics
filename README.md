@@ -13,23 +13,25 @@ Data Storage:
     Store the scraped data in a SQL database for further processing.
 
 Streamlit Application:
-
-  Develop an interactive Streamlit application to display and filter the scraped data.
-  Implement filters for bus type, route, price range, star rating, and seat availability.
+    Develop an interactive Streamlit application to display and filter the scraped data.
+    Implement filters for bus type, route, price range, star rating, and seat availability.
   
 Data Analysis:
-
-  Use SQL queries to retrieve and filter data based on user inputs.
-  Allow users to interact with and filter data through the Streamlit application.
+    Use SQL queries to retrieve and filter data based on user inputs.
+    Allow users to interact with and filter data through the Streamlit application.
 
 ### Necessary Requirements
 
 Before starting, ensure you have the following installed:
-
+    
     Python : A versatile programming language widely used for web scraping, data analysis, and web application development.
+    
     ChromeDriver: A separate executable that Selenium WebDriver uses to control Chrome for automating web tasks.
-    Selenium: A powerful tool for web automation that enables programmatic control of web browsers, crucial for web     scraping.
+    
+    Selenium: A powerful tool for web automation that enables programmatic control of web browsers, crucial for web         scraping.
+    
     SQL: Any SQL database engine.
+    
     Streamlit: A tool for displaying and filtering scraped data in a web interface.
 
 ### Installation
@@ -111,8 +113,11 @@ Run the application:
 The key objectives of this project include:
 
   1.Successfully scraping data from a minimum of 10 government state bus transport services on the Redbus website using         Selenium, alongside private bus data for the selected routes.
+  
   2.Storing the data in a structured SQL database.
+  
   3.Developing an interactive and user-friendly Streamlit application for data filtering.
+  
   4.Ensuring the application delivers a seamless user experience and operates efficiently.
 
 ## Usage
@@ -120,8 +125,11 @@ The key objectives of this project include:
 This solution can be applied in various business scenarios, such as:
 
   1.Travel Aggregators: Offering real-time bus schedules and seat availability for customers.
+  
   2.Market Analysis: Analyzing travel patterns and preferences for market research.
+  
   3.Customer Service: Enhancing user experience with customized travel options based on data insights.
+  
   4.Competitor Analysis: Comparing pricing and service levels with competitors.
 
 ## References
