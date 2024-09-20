@@ -3,10 +3,8 @@ import mysql.connector
 import streamlit as st 
 from streamlit_option_menu import option_menu  #used for selecting an option from list of options in a menu
 import plotly.express as px 
-import plotly.graph_objects as go
 import seaborn as sns
-from tabulate import tabulate
-import altair as alt
+
 
 
 #each bus we have to filter
