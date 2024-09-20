@@ -26,11 +26,11 @@ Data Analysis:
 
 Before starting, ensure you have the following installed:
 
-Python : A versatile programming language widely used for web scraping, data analysis, and web application development.
-ChromeDriver: A separate executable that Selenium WebDriver uses to control Chrome for automating web tasks.
-Selenium: A powerful tool for web automation that enables programmatic control of web browsers, crucial for web scraping.
-SQL: Any SQL database engine.
-Streamlit: A tool for displaying and filtering scraped data in a web interface.
+    Python : A versatile programming language widely used for web scraping, data analysis, and web application development.
+    ChromeDriver: A separate executable that Selenium WebDriver uses to control Chrome for automating web tasks.
+    Selenium: A powerful tool for web automation that enables programmatic control of web browsers, crucial for web     scraping.
+    SQL: Any SQL database engine.
+    Streamlit: A tool for displaying and filtering scraped data in a web interface.
 
 ### Installation
 
@@ -86,44 +86,46 @@ Setup SQL:
 
 
 III. Streamlit
-  Streamlit allows you to turn Python scripts into interactive web applications.
 
-Install Streamlit:
+Streamlit allows you to turn Python scripts into interactive web applications.
 
-  pip install streamlit
+    Install Streamlit:
+
+      pip install streamlit
 Example Usage:
 
   Create a new file called streamlit_app.py with the following code:
 
-  import streamlit as st
-  x = st.slider("Select a value")
-  st.write(x, "squared is", x * x)
+      import streamlit as st
+      x = st.slider("Select a value")
+      st.write(x, "squared is", x * x)
   
 Run the application:
 
-  streamlit run streamlit_app.py
+      streamlit run streamlit_app.py
   Visit the Streamlit documentation for more details.
+  
 
 ## Result
 
 The key objectives of this project include:
 
-  Successfully scraping data from a minimum of 10 government state bus transport services on the Redbus website using         Selenium, alongside private bus data for the selected routes.
-  Storing the data in a structured SQL database.
-  Developing an interactive and user-friendly Streamlit application for data filtering.
-  Ensuring the application delivers a seamless user experience and operates efficiently.
+  1.Successfully scraping data from a minimum of 10 government state bus transport services on the Redbus website using         Selenium, alongside private bus data for the selected routes.
+  2.Storing the data in a structured SQL database.
+  3.Developing an interactive and user-friendly Streamlit application for data filtering.
+  4.Ensuring the application delivers a seamless user experience and operates efficiently.
 
-  ## Usage
+## Usage
   
-    This solution can be applied in various business scenarios, such as:
+This solution can be applied in various business scenarios, such as:
 
-  Travel Aggregators: Offering real-time bus schedules and seat availability for customers.
-  Market Analysis: Analyzing travel patterns and preferences for market research.
-  Customer Service: Enhancing user experience with customized travel options based on data insights.
-  Competitor Analysis: Comparing pricing and service levels with competitors.
+  1.Travel Aggregators: Offering real-time bus schedules and seat availability for customers.
+  2.Market Analysis: Analyzing travel patterns and preferences for market research.
+  3.Customer Service: Enhancing user experience with customized travel options based on data insights.
+  4.Competitor Analysis: Comparing pricing and service levels with competitors.
 
 ## References
 
-https://www.selenium.dev/documentation/webdriver/elements/locators/
-https://dev.mysql.com/doc/
-https://docs.streamlit.io/
+    https://www.selenium.dev/documentation/webdriver/elements/locators/
+    https://dev.mysql.com/doc/
+    https://docs.streamlit.io/
