@@ -32,17 +32,17 @@ Selenium: A powerful tool for web automation that enables programmatic control o
 SQL: Any SQL database engine.
 Streamlit: A tool for displaying and filtering scraped data in a web interface.
 
-### Istallation
+### Installation
 
 I. Selenium
-Selenium enables the automation of web browsers for tasks like web scraping and testing.
+    Selenium enables the automation of web browsers for tasks like web scraping and testing.
 
-Setup Selenium:
+   1. Setup Selenium:
 
-Install the Selenium package:
+        Install the Selenium package:
 
-pip install selenium
-Download and set up the appropriate browser drivers (e.g., ChromeDriver). Driver download links.
+            pip install selenium
+   2.Download and set up the appropriate browser drivers (e.g., ChromeDriver). Driver download links.
 
 
 II. MySQL Workbench
@@ -50,39 +50,39 @@ II. MySQL Workbench
 
 Setup SQL:
 
-Install MySQL Workbench
-Connect to the database and create a table:
-mydb=mysql.connector.connect(
+    1.Install MySQL Workbench
+    Connect to the database and create a table:
+    mydb=mysql.connector.connect(
             host="localhost",
             port=port,
             user="username",
             password="password",
             database="dbname",
-)
+    )
 
 
-cursor = mydb.cursor(buffered=True)
+    cursor = mydb.cursor(buffered=True)
 
-# Create table
-cursor.execute("""
-CREATE TABLE IF NOT EXISTS busdetail (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    busname VARCHAR(255),
-    route_name VARCHAR(255),
-    bustype VARCHAR(255),
-    departing_time VARCHAR(255),
-    duration VARCHAR(255),
-    reaching_time VARCHAR(255),
-    rating FLOAT,
-    price DECIMAL(10, 2),
-    seats_available INT,
-    route_link VARCHAR(255)
-);
-""")
+    # Create table
+    cursor.execute("""
+    CREATE TABLE IF NOT EXISTS busdetail (
+        id INT AUTO_INCREMENT PRIMARY KEY,
+        busname VARCHAR(255),
+        route_name VARCHAR(255),
+        bustype VARCHAR(255),
+        departing_time VARCHAR(255),
+        duration VARCHAR(255),
+        reaching_time VARCHAR(255),
+        rating FLOAT,
+        price DECIMAL(10, 2),
+        seats_available INT,
+        route_link VARCHAR(255)
+    );
+    """)
 
-# Commit and close connection
-mydb.commit()
-mydb.close()
+    # Commit and close connection
+    mydb.commit()
+    mydb.close()
 
 
 III. Streamlit
